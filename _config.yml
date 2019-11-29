@@ -5,15 +5,15 @@
 # Site
 title: GJMA
 subtitle: 'GJMA Blogs'
-description: ''
-keywords:
+description: '博客，日常记录'
+keywords: '博客，技术，前端'
 author: GJMA
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://gjma.online
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -90,7 +90,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -98,4 +98,3 @@ deploy:
   type: git
   repo: https://github.com/GJMA/GJMA.github.io
   branch: master
-  
